@@ -1,3 +1,4 @@
+**Noted: Ubuntu 16.04 and lower is not supported**
 ## FAST-LIO
 **FAST-LIO** (Fast LiDAR-Inertial Odometry) is a computationally efficient and robust LiDAR-inertial odometry package. It fuses LiDAR feature points with IMU data using a tightly-coupled iterated extended Kalman filter to allow robust navigation in fast-motion, noisy or cluttered environments where degeneration occurs. Our package address many key issues:
 1. Fast iterated Kalman filter for odometry optimization;
@@ -5,7 +6,7 @@
 3. Parallel KD-Tree Search to decrease the computation;
 4. Robust feature extraction;
 
-It should be noted current version of FAST-LIO does not support Velodyne LiDAR, we may support them after March 2021.
+It should be noted current version of FAST-LIO does not support Ouster LiDAR, we may support it after March 2021.
 
 **Developers**
 
@@ -28,7 +29,7 @@ To know more about the details, please refer to our related paper:)
 
 ## 1. Prerequisites
 ### 1.1 **Ubuntu** and **ROS**
-Ubuntu >= 18.04.
+**Ubuntu >= 18.04 (Ubuntu 16.04 is not supported)**
 
 ROS    >= Melodic. [ROS Installation](http://wiki.ros.org/ROS/Installation)
 
